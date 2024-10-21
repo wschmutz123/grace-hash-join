@@ -14,7 +14,6 @@ In this project I created a manual program that creates a Grace Hash Join which 
 4. Output:
 - The matching rows from both tables are combined and the join is completed.
 
-Technologies:
 
 The entire program uses c++
 
