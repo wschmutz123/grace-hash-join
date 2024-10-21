@@ -1,0 +1,3 @@
+set -Eeuo pipefail
+set -x
+ssh banorman@login.engin.umich.edu

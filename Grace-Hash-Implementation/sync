@@ -1,0 +1,9 @@
+set -Eeuo pipefail
+set -x
+rsync \
+  -rtv \
+  --delete \
+  --exclude '.git*' \
+  --filter=':- .gitignore' \
+  ./ \
+  banorman@login.engin.umich.edu:p4-484-copy/
